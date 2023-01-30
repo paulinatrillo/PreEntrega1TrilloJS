@@ -27,10 +27,7 @@ console.log (notaPrimerParcial);
 let notaSegundoParcial = parseInt (prompt ( "Ingrese la nota del segundo parcial: "));
 console.log(notaSegundoParcial);
 
-let promedio = function (notaPrimerParcial, notaSegundoParcial){
-    return (notaPrimerParcial + notaSegundoParcial);
-}
-console.log ((notaPrimerParcial + notaSegundoParcial) /2);
+let promedio = ((notaPrimerParcial + notaSegundoParcial) /2);
 
 if (promedio >= 6){
     alert ("Aprobado");
@@ -38,8 +35,7 @@ if (promedio >= 6){
   } else if ( promedio < 6 ){
     console.log ("No aprobado")
     alert ("No aprobado");
-  } 
-
+  }
 
 let nota = prompt ("Si su nota fue aprobada ingrese: Si y de lo contrario: No");
 
